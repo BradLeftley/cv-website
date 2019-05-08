@@ -1,0 +1,114 @@
+@import "ember-bootstrap/bootstrap";
+body {
+    padding-top: 0;
+    padding-left: 17rem;
+}
+@media (min-width: 992px){
+#sideNav {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    width: 17rem;
+    height: 100vh;
+}
+#sideNav .navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+.navbar-collapse {
+    display: flex;
+    align-items: flex-start;
+    flex-grow: 0;
+    width: 100%;
+    margin-bottom: auto;
+}
+#sideNav .navbar-collapse .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item {
+    display: block;
+}
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+    display: block;
+}
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#sideNav .navbar-brand .img-profile {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: .5rem solid rgba(255,255,255,.2);
+}
+.navbar-brand {
+    display: flex;
+    margin: auto auto 0;
+    padding: .5rem;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+}
+.d-lg-none {
+    display: none!important;
+}
+.d-lg-block {
+    display: block!important;
+}
+section.resume-section {
+    padding-top: 3rem!important;
+    padding-bottom: 3rem!important;
+}
+}
+.bg-primary {
+    background-color: #369!important;
+}
+.subheading {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: 'Saira Extra Condensed',serif;
+    font-size: 1.35rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Saira Extra Condensed',serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+}
+.text-primary {
+    color: #369!important;
+}
+
+@media (min-width: 768px){
+    section.resume-section {
+    min-height: 100vh;
+}
+section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+}
+section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+}
+}
+section.resume-section {
+    border-bottom: 1px solid #dee2e6;
+    padding-top: 5rem!important;
+    padding-bottom: 5rem!important;
+}
+h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+}
