@@ -10,7 +10,7 @@ module.exports = function(deployTarget) {
       type: "git-commit"
     },
     "s3-index": {
-      accessKeyId: process.env["S3_UPLOAD_ACCESS_KEY_ID"],
+      accessKeyId: process.env["S3_ACCESS_KEY"],
       secretAccessKey: process.env["S3_SECRET_ACCESS_KEY"],
       bucket: "bradleyleftley.co.uk",
       region: "eu-west-2",
@@ -18,7 +18,7 @@ module.exports = function(deployTarget) {
     },
     host: "",
     s3: {
-      accessKeyId: process.env["S3_UPLOAD_ACCESS_KEY_ID"],
+      accessKeyId: process.env["S3_ACCESS_KEY"],
       secretAccessKey: process.env["S3_SECRET_ACCESS_KEY"],
       bucket: "bradleyleftley.co.uk",
       region: "eu-west-2"
