@@ -1,9 +1,18 @@
 @import "ember-bootstrap/bootstrap";
-body {
-    padding-top: 0;
-    padding-left: 17rem;
+.navbar-toggler-icon {
+    display: none;
+}
+.navbar-toggler {
+    display: none;
+}
+.user-card.footer {
+    display: none;
 }
 @media (min-width: 992px){
+    body {
+        padding-top: 0;
+        padding-left: 17rem;
+    }
 #sideNav {
     text-align: center;
     position: fixed;
