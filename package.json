@@ -18,6 +18,7 @@
     "test": "ember test"
   },
   "devDependencies": {
+    "@babel/plugin-transform-block-scoping": "^7.8.3",
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
     "bootstrap": "^4.3.1",
@@ -61,5 +62,8 @@
   },
   "dependencies": {
     "github-card": "^1.2.1"
+  },
+  "volta": {
+    "node": "10.11.0"
   }
 }
