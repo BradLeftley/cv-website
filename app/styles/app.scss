@@ -51,13 +51,14 @@
 #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
 }
-#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link a {
     display: block;
 }
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 600;
     text-transform: uppercase;
 }
+
 #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;

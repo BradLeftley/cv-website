@@ -6,6 +6,7 @@
         src="https://avatars1.githubusercontent.com/u/44673772?s=460&v=4" alt="">
     </span>
   </a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -13,25 +14,26 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.about href="#about" linkId="about" name="About"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.experience href="#experience" linkId="experience" name="Experience"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.education href="#education" linkId="education" name="Education"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#github">Opensource</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.opensource href="#github" linkId="opensource" name="Opensource"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#applications">Portfolio</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.portfolio href="#portfolio" linkId="portfolio" name="portfolio"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#design">Design</a>
+        {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.design href="#design" linkId="design" name="design"}}
       </li>
       <li class="nav-item">
-        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+         {{nav-link class="nav-link js-scroll-trigger" active=viewportHandler.contact href="#contact" linkId="contact" name="Contact"}}
+        {{!-- <a class="nav-link js-scroll-trigger" href="#contact">Contact</a> --}}
       </li>
       <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
@@ -44,8 +46,7 @@
   </div>
 </nav>
 <div class="container-fluid p-0">
-
-  <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+{{#section-item class="resume-section p-3 p-lg-5 d-flex d-column" id="about"}} 
     <div class="my-auto">
       <h1 class="mb-0">
         Bradley
@@ -129,9 +130,8 @@
             </li> -->
       </ul>
     </div>
-  </section>
-
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+{{/section-item}}
+{{#section-item class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience"}} 
     <div class="my-auto">
       <h2 class="mb-5">Experience</h2>
 
@@ -224,9 +224,8 @@
 
     </div>
 
-  </section>
-
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+{{/section-item}}
+{{#section-item class="resume-section p-3 p-lg-5 d-flex flex-column" id="education"}} 
     <div class="my-auto">
       <h2 class="mb-5">Education</h2>
 
@@ -281,8 +280,8 @@
       </div>
 
     </div>
-  </section>
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="github">
+ {{/section-item}}
+{{#section-item class="resume-section p-3 p-lg-5 d-flex d-column" id="opensource"}} 
     <div class="my-auto">
       <h2 class="mb-5">Opensource</h2>
       {{!-- <div class="github-widget" data-username="BradLeftley"></div> --}}
@@ -319,8 +318,10 @@
         </div>
       </div>
     </div>
-  </section>
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="applications">
+  {{/section-item}}
+
+
+  {{#section-item class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio"}} 
     <div class="my-auto">
       <h2 class="mb-5">Portfolio</h2>
       <div class="resume-item d-flex flex-column flex-md-row">
@@ -537,13 +538,10 @@
           <span class="text-primary">2016</span>
         </div>
       </div>
-
-
-
     </div>
-  </section>
+  {{/section-item}}
 
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="design">
+{{#section-item class="resume-section p-3 p-lg-5 d-flex d-column" id="design"}} 
     <div class="my-auto">
       <h2 class="mb-5">Design</h2>
       <div class="row">
@@ -600,8 +598,8 @@
     </div>
 
 
-  </section>
-  <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="contact">
+  {{/section-item}}
+{{#section-item class="resume-section p-3 p-lg-5 d-flex d-column" id="contact"}} 
     <div class="my-auto">
       <h2 class="mb-5">Contact</h2>
 
@@ -618,7 +616,7 @@
 
 
     </div>
-  </section>
+  {{/section-item}}
   <!-- <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
           <h2 class="mb-5">Interests</h2>
