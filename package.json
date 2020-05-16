@@ -22,7 +22,7 @@
     "@ember/jquery": "^0.5.2",
     "@ember/optional-features": "^0.6.3",
     "bootstrap": "^4.3.1",
-    "ember-scroll-spy": "0.0.2",
+    "ember-scroll-spy": "0.0.4",
     "broccoli-asset-rev": "^2.7.0",
     "ember-ajax": "^5.0.0",
     "ember-bootstrap": "^2.6.2",
