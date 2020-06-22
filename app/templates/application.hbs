@@ -44,7 +44,7 @@
       <li class="nav-item">
         <ScrollContainer @linkId="portfolio">
           <a class="nav-link js-scroll-trigger" href="#portfolio">
-            Portfolio
+            Projects
           </a>
         </ScrollContainer>
       </li>
@@ -80,16 +80,16 @@
         <a href="mailto:name@email.com"></a>
       </div>
       <p class="mb-5">
-        Front End Engineer with experience of UX, Web and AWS. Currently working for Linkfire remotely
+        Software Engineer with experience of AWS, Web and UX. Currently working for Linkfire remotely
         in United Kingdom.
       </p>
       <div class="my-auto">
         <h2 class="mb-5">Skills</h2>
         <div class="subheading mb-3">Languages &amp; Tools</div>
         <ul>
-          <li>HTML5, CSS3, SASS, JavaScript and Python </li>
+          <li>HTML5, CSS3, SASS, JavaScript and Python.</li>
         </ul>
-        <div class="subheading mb-3">Web Frameworks </div>
+        <div class="subheading mb-3">Web Frameworks</div>
 
         <ul>
           <li> Ember.js (Node.js, Express.js), Angular.js, D3.js JQuery, Bootstrap & Foundation.</li>
@@ -102,39 +102,29 @@
         <div class="subheading mb-3">Design</div>
 
         <ul>
-          <li> Sketch 3, Photoshop &amp; Illustrator.</li>
+          <li> Figma, Sketch 3, Photoshop &amp; Illustrator.</li>
         </ul>
         <div class="subheading mb-3">Cloud</div>
-
         <ul>
           <li>Amazon Web Services.</li>
         </ul>
         <div class="subheading mb-3">CI / CD.</div>
-
         <ul>
           <li>Teamcity</li>
           <li>Docker</li>
         </ul>
+        <div class="subheading mb-3">OS</div>
+        <ul>
+          <li>Linux</li>
+          <li>Mac OS</li>
+        </ul>
+        <div class="subheading mb-3">Web Servers</div>
+        <ul>
+          <li>Nginx</li>
+        </ul>
       </div>
 
       <ul class="list-inline list-social-icons mb-0">
-
-        <!-- <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
-        <!-- <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li> -->
         <li class="list-inline-item">
           <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/bradleyleftley">
             <span class="fa-stack fa-lg">
@@ -168,11 +158,12 @@
           <div class="subheading mb-3">Linkfire</div>
           <p>Front end developer working on the insights team using Ember.js as our core framework. </p>
           <ul>
+            <li>Improving workflows via implementing enviroment PR revisions S3.</li>
             <li>Deploying front end to different environments via Teamcity. </li>
             <li>Writing functional and reusable code. </li>
             <li>Writing integration, unit and acceptance tests.</li>
-            <li>Refactoring code </li>
-            <li>Peer reviewing code</li>
+            <li>Refactoring code.</li>
+            <li>Peer reviewing code.</li>
             <li>Working with D3.js to visualise data.</li>
           </ul>
         </div>
@@ -188,7 +179,6 @@
       <div class="resume-item d-flex flex-column flex-md-row mb-5">
 
         <div class="resume-content mr-auto">
-
           <h3 class="mb-0">Front End Developer</h3>
           <div class="subheading mb-3">PA Consulting Group</div>
           <p>
@@ -327,7 +317,7 @@
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0"></h3>
-          <div class="subheading mb-3">Ember Scroll Spy (Work in progress)</div>
+          <div class="subheading mb-3">Ember Scroll Spy</div>
           <p>Simple scroll spy component for Ember taking advantage of Ember Viewport.</p>
           <div class="github-card" data-github="BradLeftley/ember-scroll-spy" data-width="400" data-height=""
             data-theme="default"></div>
@@ -357,14 +347,61 @@
   <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="portfolio">
     <Anchor @id="portfolio" />
     <div class="my-auto">
-      <h2 class="mb-5">Portfolio</h2>
+      <h2 class="mb-5">Projects</h2>
+      <div class="resume-item d-flex flex-column flex-md-row">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Unraid Dashboard</h3>
+          <div class="subheading mb-3">Personal (soon to be opensource)</div>
+          <p>
+            Currently building a opensource Unraid dashboard showing load on a server. The application will result in a custom docker container which users will be able to host on there own unraid server. The front end will be build using Ember (Octane) and using Glances / Unraid API.
+          </p>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-docker"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons devicons-nginx"></i>
+            </li>
+          </ul>
+          <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="400" height="250" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2FeuqyX2hn1bDb0vAcmXegDl%2Fnetwork%3Fnode-id%3D0%253A1&chrome=DOCUMENTATION" allowfullscreen></iframe>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">2020</span>
+        </div>
+      </div>
+      <div class="resume-item d-flex flex-column flex-md-row">
+        <div class="resume-content mr-auto">
+          <h3 class="mb-0">Unraid Server</h3>
+          <div class="subheading mb-3">Personal</div>
+          <p>
+            Built a custom Unraid server. The server contains number of docker containers including, dynamic IP updates, media / game services , personal Team city deployment and virtual machines. There is also a reverse-proxy using Nginx to serve the contains via HTTPS.
+          </p>
+          <ul class="list-inline list-icons">
+            <li class="list-inline-item">
+              <i class="devicons devicons-docker"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons-aws"></i>
+            </li>
+            <li class="list-inline-item">
+              <i class="devicons devicons devicons-nginx"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="resume-date text-md-right">
+          <span class="text-primary">2020</span>
+        </div>
+      </div>
       <div class="resume-item d-flex flex-column flex-md-row">
         <div class="resume-content mr-auto">
           <h3 class="mb-0">Fish Tank monitoring</h3>
           <div class="subheading mb-3">Personal</div>
           <p>
             Fish tank monitoring tool built with a Raspberry PI, which posts current tempatures to slack. Built using
-            Python.
+            Python. 
           </p>
           <ul class="list-inline list-icons">
             <li class="list-inline-item">
@@ -621,8 +658,8 @@
             <div class="card-body">
               <h5 class="card-title">Cloud Practice Exams</h5>
               <p class="card-text">AWS practice certification exams website.</p>
-              <a href="https://cloudpracticeexams.com" target="_blank" style="background: #fa6400;border-color:#fa6400;"
-                class="btn btn-primary">View Website</a>
+              {{!-- <a href="https://cloudpracticeexams.com" target="_blank" style="background: #fa6400;border-color:#fa6400;"
+                class="btn btn-primary">View Website</a> --}}
             </div>
           </div>
         </div>
