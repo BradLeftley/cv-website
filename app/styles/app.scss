@@ -1,6 +1,6 @@
 @import "ember-bootstrap/bootstrap";
 .devicons {
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 .navbar-toggler-icon {
   display: none;
@@ -87,7 +87,7 @@
   }
 }
 .bg-primary {
-  background-color: #095bae !important;
+  background-color: #3e4f5f !important;
 }
 .subheading {
   text-transform: uppercase;
@@ -107,7 +107,9 @@ h6 {
   color: #343a40;
 }
 .text-primary {
-  color: #095bae !important;
+  color: #3e4f5f
+
+  !important;
 }
 
 @media (min-width: 768px) {

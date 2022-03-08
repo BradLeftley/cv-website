@@ -5204,10 +5204,10 @@ ember-runtime-enumerable-includes-polyfill@^2.0.0:
     ember-cli-babel "^6.9.0"
     ember-cli-version-checker "^2.1.0"
 
-ember-scroll-spy@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/ember-scroll-spy/-/ember-scroll-spy-0.0.8.tgz#8c2104e04f0c92c3187f5f2f1040ff5c202b2f98"
-  integrity sha512-wa+4AeuhO8WrKcSX02uKohS8kIXhDGqHeOPBfN8eLN1jeuIHWo+HsOSc2nPbqCjcWcB0FTwocT1wqVE6dFy2jA==
+ember-scroll-spy@0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/ember-scroll-spy/-/ember-scroll-spy-0.0.9.tgz#ce102b97ccdd7f7b7920a7e858ab1462466cea4f"
+  integrity sha512-bcfq/KtBlWPrI7rKDdtMDRXtYgcfUVxPx1Kb/4kLIya01ecSSxVRRanHM1Nh/oTWipKJHUkVYo/0pcxuniwSVQ==
   dependencies:
     ember-cli-babel "^7.23.1"
     ember-cli-htmlbars "^5.3.2"
